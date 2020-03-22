@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dcf795e8-4bd9-41e9-a17d-e47d9387f17b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZTXYrpRZEM8KM9sqFBAjUAP56L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/core/data_reformat" />
+      <recent name="$PROJECT_DIR$/core/machine_learning/cnn_classification" />
+      <recent name="$PROJECT_DIR$/conf" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DIAS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_test/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DIAS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcf795e8-4bd9-41e9-a17d-e47d9387f17b" name="Default Changelist" comment="" />
+      <created>1584864107186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584864107186</updated>
+      <workItem from="1584864114806" duration="5000" />
+      <workItem from="1584864215883" duration="26445000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="560" y="250" key="#Inspections" timestamp="1584889301758">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state x="560" y="250" key="#Inspections/0.23.1920.1124@0.23.1920.1124" timestamp="1584889301758" />
+    <state width="1878" height="312" key="GridCell.Tab.0.bottom" timestamp="1584894826618">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state width="1878" height="312" key="GridCell.Tab.0.bottom/0.23.1920.1124@0.23.1920.1124" timestamp="1584894826618" />
+    <state width="1878" height="312" key="GridCell.Tab.0.center" timestamp="1584894826617">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state width="1878" height="312" key="GridCell.Tab.0.center/0.23.1920.1124@0.23.1920.1124" timestamp="1584894826617" />
+    <state width="1878" height="312" key="GridCell.Tab.0.left" timestamp="1584894826617">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state width="1878" height="312" key="GridCell.Tab.0.left/0.23.1920.1124@0.23.1920.1124" timestamp="1584894826617" />
+    <state width="1878" height="312" key="GridCell.Tab.0.right" timestamp="1584894826618">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state width="1878" height="312" key="GridCell.Tab.0.right/0.23.1920.1124@0.23.1920.1124" timestamp="1584894826618" />
+    <state x="618" y="342" width="837" height="550" key="find.popup" timestamp="1584888154510">
+      <screen x="0" y="23" width="1920" height="1124" />
+    </state>
+    <state x="618" y="342" width="837" height="550" key="find.popup/0.23.1920.1124@0.23.1920.1124" timestamp="1584888154510" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DIAS$main.coverage" NAME="main Coverage Results" MODIFIED="1584884423886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DIAS$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1584884567681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop_test" />
+  </component>
+</project>

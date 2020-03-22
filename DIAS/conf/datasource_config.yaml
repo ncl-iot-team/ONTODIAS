@@ -1,0 +1,21 @@
+database:
+  stardog:
+    username: admin
+    password: admin
+    host: localhost
+    port: 5820
+    db: landslip
+  mysql:
+    host: localhost
+    port: 3306
+    username: landslip
+    password: Landslip@2020
+  mongodb:
+    host: localhost
+    port: 27017
+  hdfs:
+    namenode: localhost
+    port: 50000
+gdal:
+  hostname: localhost
+  port: 50000
