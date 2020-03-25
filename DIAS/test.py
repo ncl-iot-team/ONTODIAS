@@ -29,10 +29,13 @@ if __name__ == '__main__':
     for r in re["statuses"]:
 
         # 1868595
-        if r["user"]["id"] == 1241754636601544704:
+        # if r["user"]["id"] == 1241754636601544704:
+        # 498168789@qq.com
+        if r["user"]["id"] == 1242473094603661319:
         # 166755
         # if r["user"]["id"] == 1238807757450403841:
         # if r["user"]["id"] == 1112009514:
+
             print(r)
             kafka_topic = "lews-onto-dias"
             msg_json = json.dumps(r)

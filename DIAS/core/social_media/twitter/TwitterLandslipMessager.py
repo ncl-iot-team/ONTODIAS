@@ -21,14 +21,17 @@ class TwitterLandslipMessager(TwitterMessager):
     # 临时demo account 信息
 
     # 1868495
-    demo_acc_id = 1241754636601544704
+    # demo_acc_id = 1241754636601544704
     # 166755
     # demo_acc_id = 1238807757450403841
+    # 498168789@qq.com
+    demo_acc_id = 1242473094603661319
     # ray
     # demo_acc_id = 1112009514
 
-    demo_acc_id_str = "1241754636601544704"
+    # demo_acc_id_str = "1241754636601544704"
     # demo_acc_id_str = "1238807757450403841"
+    demo_acc_id_str = "1242473094603661319"
     #ray
     # demo_acc_id_str = "1112009514"
     api = twitter.Api(consumer_key=TWITTER_API_KEY,
@@ -121,9 +124,10 @@ class TwitterLandslipMessager(TwitterMessager):
 
             ontology_resp = self.cnn_pred(all_text)
 
+            logger.info(ontology_resp)
             # 回答ontolog 结果
-            super().reply_tweet(screen_name=self.screen_name, text=ontology_resp,
-                                tweet_id=self.wait_reply_message_id)
+            # super().reply_tweet(screen_name=self.screen_name, text=ontology_resp,
+            #                     tweet_id=self.wait_reply_message_id)
 
             # 已经回复过ontology结果
             REDIS_CLIENT.hset(self.demo_acc_id,"ontology_result_reply","1")
@@ -153,7 +157,7 @@ class TwitterLandslipMessager(TwitterMessager):
                 if not REDIS_CLIENT.hexists(self.demo_acc_id, "location_reply"):
                     REDIS_CLIENT.hset(self.demo_acc_id, "location_reply", "1")
                     
-                    return "What will be the location?"
+                    return "Where did you observe this event ? "
 
             REDIS_CLIENT.hset(self.demo_acc_id, "question_seq", "2")
 
@@ -170,7 +174,7 @@ class TwitterLandslipMessager(TwitterMessager):
                 if not REDIS_CLIENT.hexists(self.demo_acc_id, "date_reply"):
                     REDIS_CLIENT.hset(self.demo_acc_id, "date_reply", "1")
 
-                    return "When are the hazards likely to occur?"
+                    return "When did you observe this event?"
                 return None
             # 回答完问题 切换下一个问题
             REDIS_CLIENT.hset(self.demo_acc_id, "question_seq", "3")
@@ -199,7 +203,7 @@ class TwitterLandslipMessager(TwitterMessager):
             if not REDIS_CLIENT.hexists(self.demo_acc_id, "Q_2_2_reply"):
                 REDIS_CLIENT.hset(self.demo_acc_id, "Q_2_2_reply", "1")
                 
-                return "Have you noticed any ‘falling rocks’ where you observed the ‘leaning pole’?"
+                return "Have you noticed any ‘rockfalls’ where you observed the ‘leaning pole’?"
 
             # 收录回复
             if REDIS_CLIENT.hexists(self.demo_acc_id, "Q_2_2_reply"):
